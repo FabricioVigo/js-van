@@ -1,0 +1,42 @@
+*{
+    margin:0;
+}
+/* Navbar */
+.navbar-content{
+    background-color: #ccc;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li {
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    gap:1rem;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+.imagen{
+    width: 250px;
+    height: 250px;
+    border-bottom: 2px solid #ccc;
+}
+
+.pdts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+}
